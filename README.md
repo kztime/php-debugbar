@@ -99,16 +99,3 @@ $debugbar["messages"]->addMessage("hello world!");
  - `ExceptionsCollector` (*exceptions*)
 
 Learn more about DebugBar in the [docs](http://phpdebugbar.com/docs).
-
-## Changelog
-
-1.6:
-
- - extracted TraceablePDO as a separate package: maximebf/TraceablePDO
- - DebugBar\DataCollector\PDO\TracrablePDO becomes TraceablePDO from the maximebf/TraceablePDO package
- - DebugBar\DataCollector\PDO\PDOCollector renamed as DebugBar\DataCollector\PDOCollector
-
-1.5:
-
- - added storage
- - added open handler
